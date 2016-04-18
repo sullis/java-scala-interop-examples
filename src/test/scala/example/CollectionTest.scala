@@ -1,7 +1,7 @@
 package example
 
 import org.scalatest.{ShouldMatchers, FlatSpec}
-import java.util.{ArrayList => JArrayList, List => JList, HashMap => JHashMap, Map => JMap}
+import java.util.{ArrayList => JArrayList, List => JList, HashMap => JHashMap, Set => JSet, HashSet => JHashSet}
 import scala.collection.JavaConverters._
 
 class CollectionTest extends FlatSpec with ShouldMatchers {
@@ -33,6 +33,17 @@ class CollectionTest extends FlatSpec with ShouldMatchers {
     scalaMap.get("Oregon") should be (Some("hazelnuts"))
     scalaMap.get("California") should be (Some("avocados"))
   }
+
+  "java.util.HashSet" should "convert to Scala Set" in {
+    val jSet = new JHashSet[Integer]
+    jSet.add(1)
+    jSet.add(2)
+
+    val scalaSet = jSet.asScala
+
+    scalaSet should be (Set(1, 2))
+  }
+
 
   "Java method with varargs" should "work" in {
     val names = Array("Barack", "George", "Bill")
