@@ -21,4 +21,10 @@ class CollectionTest extends FlatSpec with ShouldMatchers {
     val javaList = scalaList.asJava
     javaList.isInstanceOf[JList[String]] should be (true)
   }
+
+  "Java method with varargs" should "work" in {
+    val names = Array("Barack", "George", "Bill")
+    val foo = new Foo()
+    // foo.setNamesVarArg(
+  }
 }
