@@ -2,6 +2,11 @@
 
 Java-Scala interoperability examples
 
+Scala code: https://github.com/sullis/java-scala-interop-examples/tree/master/src/test/scala/example
+
+Java code: https://github.com/sullis/java-scala-interop-examples/tree/master/src/test/java/example
+
+
 # Presentations
 
 April 2016:  https://speakerdeck.com/sullis/java-scala-interoperability-april-2016
