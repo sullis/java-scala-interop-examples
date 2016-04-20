@@ -48,6 +48,6 @@ class CollectionTest extends FlatSpec with ShouldMatchers {
   "Java method with varargs" should "work" in {
     val names = Array("Barack", "George", "Bill")
     val foo = new Foo()
-    // foo.setNamesVarArg(
+    foo.setNamesVarArg(names: _*)
   }
 }
