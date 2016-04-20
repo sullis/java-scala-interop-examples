@@ -8,7 +8,7 @@ Java-Scala interoperability examples
 
 # Presentations
 
-April 2016:  https://speakerdeck.com/sullis/java-scala-interoperability-april-2016
+- April 2016:  https://speakerdeck.com/sullis/java-scala-interoperability-april-2016
 
 # Useful libraries for Java-Scala interop
 
