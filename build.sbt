@@ -2,7 +2,7 @@ name := "java-scala-interop-examples"
 
 version := "1.0"
 
-scalaVersion := "2.11.11"
+scalaVersion := "2.11.12"
 
 libraryDependencies += "com.gilt" %% "gfc-guava" % "0.2.4"
 
