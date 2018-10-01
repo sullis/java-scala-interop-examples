@@ -4,7 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.12.7"
 
-libraryDependencies += "com.gilt" %% "gfc-guava" % "0.2.4"
+libraryDependencies += "com.gilt" %% "gfc-guava" % "0.3.1"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 
