@@ -12,7 +12,7 @@ Java-Scala interoperability examples
 
 # Useful libraries for Java-Scala interop
 
-- https://github.com/gilt/gfc-guava
+- https://github.com/saksdirect/gfc-guava
 
 - https://github.com/scala/scala-java8-compat
 
