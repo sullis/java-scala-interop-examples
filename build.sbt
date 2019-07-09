@@ -8,5 +8,5 @@ libraryDependencies += "com.gilt" %% "gfc-guava" % "0.3.1"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
 
-libraryDependencies += "org.testng" % "testng" % "6.9.12" % "test"
+libraryDependencies += "org.testng" % "testng" % "6.14.3" % "test"
 
