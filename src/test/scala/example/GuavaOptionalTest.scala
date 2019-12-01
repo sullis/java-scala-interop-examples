@@ -2,9 +2,10 @@ package example
 
 import com.gilt.gfc.guava.GuavaConverters._
 import com.google.common.base.Optional
-import org.scalatest.{Matchers, FlatSpec}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class GuavaOptionalTest extends FlatSpec with Matchers {
+class GuavaOptionalTest extends AnyFlatSpec with Matchers {
 
   "Guava Optional conversion" should "work" in {
     Optional.of("foo").asScala should be (Some("foo"))

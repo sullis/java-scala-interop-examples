@@ -4,10 +4,11 @@ import java.util.concurrent.ExecutionException
 import com.gilt.gfc.guava.future.FutureConverters._
 import com.google.common.util.concurrent.SettableFuture
 import scala.concurrent.Future
-import org.scalatest.{Matchers, FlatSpec}
 import org.scalatest.concurrent.ScalaFutures._
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class GuavaFutureTest extends FlatSpec with Matchers {
+class GuavaFutureTest extends AnyFlatSpec with Matchers {
 
   "Guava ListenableFuture conversion" should "work" in {
     val guavaFuture = SettableFuture.create[String]
