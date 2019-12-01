@@ -1,10 +1,11 @@
 package example
 
-import org.scalatest.{Matchers, FlatSpec}
 import java.util.{ArrayList => JArrayList, List => JList, HashMap => JHashMap, Set => JSet, HashSet => JHashSet}
 import scala.collection.JavaConverters._
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class CollectionTest extends FlatSpec with Matchers {
+class CollectionTest extends AnyFlatSpec with Matchers {
 
   "java.util.ArrayList" should "convert to Scala List" in {
     val jArrayList = new JArrayList[String]
