@@ -1,6 +1,6 @@
 package example
 
-import com.gilt.gfc.guava.GuavaConverters._
+import org.gfccollective.guava.GuavaConverters._
 import com.google.common.base.Optional
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers

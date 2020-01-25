@@ -1,7 +1,7 @@
 package example
 
 import java.util.concurrent.ExecutionException
-import com.gilt.gfc.guava.future.FutureConverters._
+import org.gfccollective.guava.future.FutureConverters._
 import com.google.common.util.concurrent.SettableFuture
 import scala.concurrent.Future
 import org.scalatest.concurrent.ScalaFutures._
