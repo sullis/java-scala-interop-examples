@@ -14,7 +14,7 @@ Java-Scala interoperability examples
 
 - [gfc-guava](https://github.com/gfc-collective/gfc-guava)
 
-- https://github.com/scala/scala-java8-compat
+- [scala-java8-compat](https://github.com/scala/scala-java8-compat)
 
 # Additional resources
 
