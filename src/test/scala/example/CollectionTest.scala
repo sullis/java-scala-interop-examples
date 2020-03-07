@@ -1,7 +1,7 @@
 package example
 
-import java.util.{ArrayList => JArrayList, List => JList, HashMap => JHashMap, Set => JSet, HashSet => JHashSet}
-import scala.collection.JavaConverters._
+import java.util.{ArrayList => JArrayList, List => JList, HashMap => JHashMap, HashSet => JHashSet}
+import scala.jdk.CollectionConverters._
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 

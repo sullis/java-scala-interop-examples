@@ -1,6 +1,6 @@
 package example
 
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters._
 
 object ScalaStuff {
   val listOfPersons = List(PersonCaseClass("a", "b", "c"), PersonCaseClass("d", "e", "f"))
