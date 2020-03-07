@@ -16,6 +16,8 @@ Java-Scala interoperability examples
 
 - [zio interop-guava](https://github.com/zio/interop-guava)
 
+- [zio interop-java](https://github.com/zio/zio/blob/master/core/jvm/src/main/scala/zio/interop/javaz.scala)
+
 - [scala-java8-compat](https://github.com/scala/scala-java8-compat)
 
 # Additional resources
