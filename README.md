@@ -14,6 +14,8 @@ Java-Scala interoperability examples
 
 - [gfc-guava](https://github.com/gfc-collective/gfc-guava)
 
+- [gfc-vavr](https://github.com/gfc-collective/gfc-vavr)
+
 - [zio interop-guava](https://github.com/zio/interop-guava)
 
 - [zio interop-java](https://github.com/zio/zio/blob/master/core/jvm/src/main/scala/zio/interop/javaz.scala)
