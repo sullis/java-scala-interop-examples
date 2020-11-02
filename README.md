@@ -26,4 +26,4 @@ Java-Scala interoperability examples
 
 - [Java-Scala interoperability guide from Databricks](https://github.com/databricks/scala-style-guide/blob/master/README.md#java)
 - https://github.com/travisbrown/scala-java-interop
-
+- https://github.com/scala/docs.scala-lang/issues/1146
