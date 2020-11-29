@@ -25,6 +25,7 @@ Java-Scala interoperability examples
 # Additional resources
 
 - [Java-Scala interoperability guide from Databricks](https://github.com/databricks/scala-style-guide/blob/master/README.md#java)
+- [Java-Scala interop tutorial from Twitter](https://twitter.github.io/scala_school/java.html)
 - [Using Scala 3 enums in Java](https://dotty.epfl.ch/docs/reference/enums/enums.html)
 - https://github.com/travisbrown/scala-java-interop
 - https://github.com/scala/docs.scala-lang/issues/1146
