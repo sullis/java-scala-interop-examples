@@ -6,7 +6,7 @@ scalaVersion := "2.13.8"
 
 libraryDependencies += "org.gfccollective" %% "gfc-guava" % "1.0.0"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.10" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.11" % "test"
 
 libraryDependencies += "org.testng" % "testng" % "7.5" % "test"
 
