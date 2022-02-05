@@ -22,6 +22,8 @@ Java-Scala interoperability examples
 
 - [scala-java8-compat](https://github.com/scala/scala-java8-compat)
 
+- [scalaj](https://github.com/jozic/scalaj)
+
 # Additional resources
 
 - [Java-Scala interoperability guide from Databricks](https://github.com/databricks/scala-style-guide/blob/master/README.md#java)
