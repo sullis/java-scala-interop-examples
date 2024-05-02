@@ -8,5 +8,5 @@ libraryDependencies += "org.gfccollective" %% "gfc-guava" % "1.0.0"
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.18" % "test"
 
-libraryDependencies += "org.testng" % "testng" % "7.9.0" % "test"
+libraryDependencies += "org.testng" % "testng" % "7.10.1" % "test"
 
