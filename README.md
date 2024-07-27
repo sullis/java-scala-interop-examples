@@ -20,6 +20,8 @@ Java-Scala interoperability examples
 
 - [zio interop-java](https://github.com/zio/zio/blob/master/core/jvm/src/main/scala/zio/interop/javaz.scala)
 
+- [scala-collection-compat](https://github.com/scala/scala-collection-compat)
+
 - [scala-java8-compat](https://github.com/scala/scala-java8-compat)
 
 - [scalaj](https://github.com/jozic/scalaj)
